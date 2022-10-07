@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #302e2e;
+}
+.container {
+    width: 100%;
+    height: auto;
+
+}
+
+.listchung {
+    margin: 0 auto;
+    width: 90%;
+    background-color: white;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 70px;
+}
+
+#chucnang {
+    width: 300px;
+
+}
+header{
+    width: 100%;
+    background-color: #e8e4e4;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+header >img{
+    width: 190px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+.user{
+    padding-top: 30px;
+    height: 75px;
+}
+.box a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.box ul{
+    width: 100%;
+    list-style: none;
+}
+
+.box{
+    width: 240px;
+    height: auto;
+    float: left;
+    background-color: #302e2e;
+}
+.box ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.box i{
+    margin-right: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+table{
+    margin: auto;
+}
+footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+    width: 100%;
+}
+.list{
+    border-collapse: collapse ;
+}
+.list th{
+    padding: 10px;
+    border-bottom: 2px solid #cccccc;
+}
+.list td{
+    text-align: center;
+    width: auto;
+    padding: 10px 30px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.nen{
+    padding-top: 50px;
+    width: auto;
+    height: auto;
+    background-color: #b7b1b1;
+    display: flex;
+    padding-bottom: 250px;
+}
+.nen2{
+    padding-top: 50px;
+    width: 65%;
+    height: auto;
+    display: flex;
+    margin: auto;
+}
+
+.tb{
+    width: 90%;
+    height: 800px;
+    background-color: white;
+}
+.bao{
+    width: auto;
+}
+#xoa{
+    width: 70px;
+    height: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+}
+#xoa a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+#xoa:hover{
+    box-shadow: 0 0 5px;
+}
+#sua{
+    margin-right: 20px;
+    width: 70px;
+    height: 30px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+}
+#sua a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+#sua:hover{
+    box-shadow: 0 0 5px;
+}
+#them{
+    width: 80px;
+    height: 40px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+}
+#them a{
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+#them:hover{
+    box-shadow: 0 0 5px;
+}
+.add{
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    padding-top: 20px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.edit{
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    padding-top: 20px;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.form input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
+.form td{
+    padding: 7px 0;
+}
+.form button{
+    width: 400px;
+    height: 30px;
+    color: white;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search{
+    padding-right: 22px;
+    float: right;
+    margin-bottom: 20px;
+}
+.loi{
+    color: red;
+}
+.trong{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+}
