@@ -1,3 +1,4 @@
+<!-- hi :>> -->
 <?php
 session_start();
 include '/xampp/htdocs/duanmau/ketnoi/ketnoi.php';
